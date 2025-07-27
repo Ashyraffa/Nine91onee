@@ -23,15 +23,15 @@ header h1 {
     animation: slide 1s linear infinite;
 }
 
-        @keyframes slide {
-            from {
-                background-position-x: 0%;
-            }
+@keyframes slide {
+    from {
+        background-position-x: 0%;
+    }
 
-            to {
-                background-position-x: 20vw;
-            }
-        }
+    to {
+        background-position-x: 20vw;
+    }
+}
 
 .navbar-toggler {
     border: none;
@@ -68,7 +68,6 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
-
 
 .card-content {
     max-width: 70%;
@@ -254,4 +253,33 @@ footer {
 
 footer h2 {
     margin: 25px;
+}
+
+.prestasi-wrapper {
+    overflow: hidden;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.prestasi-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.prestasi-wrapper .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .prestasi-wrapper .row {
+        flex-direction: row !important;
+        align-items: center;
+    }
 }

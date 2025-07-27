@@ -13,15 +13,6 @@ Nine91onee is a website designed for our class community. Here you can find anno
 - Resource sharing (documents, links, etc.)
 - Contact information
 
-## Installation
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/halaman9.1.git
-   ```
-2. Open the project folder.
-
-3. Open `index.html` in your browser, or use a local server for development.
 
 ## Usage
 
@@ -34,6 +25,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Contact
 
-For questions or suggestions, contact [your.email@example.com](mailto:your.email@example.com).
+For questions or suggestions, contact [raffa3527.@outlook.com](mailto:raffa3527@outlook.com).
 
-<!-- Add screenshots or demo links below if available -->
+
